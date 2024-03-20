@@ -10,7 +10,7 @@ const container = document.getElementById('root')
 const root = createRoot(container)
 
 root.render(
-  <React.StrictMode> 
+  
     <Router>
       <AuthProvider>
         <Routes>
@@ -18,5 +18,5 @@ root.render(
         </Routes>
       </AuthProvider>
     </Router>
-  </React.StrictMode>
+  
 );
